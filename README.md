@@ -6,6 +6,12 @@ A collection of my homework problem solutions in JavaScript, for the Fundamental
 Certificates of completed courses so far:
 
 
+## Softuni JS Advanced
+
+![alt text](https://softuni.bg/certificates/certificates/converttoimage/98222?code=341e26e9) 
+
+[Link to site/pdf](https://softuni.bg/certificates/details/98222/341e26e9)
+
 ## Softuni Programming Fundamentals with JavaScript
 
 ![alt text](https://softuni.bg/certificates/certificates/converttoimage/94589?code=e1204906) 
