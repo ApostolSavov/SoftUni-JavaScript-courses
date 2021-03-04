@@ -14,9 +14,9 @@ Certificates of completed courses so far:
 
 ## Softuni Programming Fundamentals with JavaScript
 
-![alt text](https://softuni.bg/certificates/certificates/converttoimage/94589?code=e1204906) 
+![alt text](https://softuni.bg/certificates/certificates/converttoimage/96767?code=c9191e77) 
 
-[Link to site/pdf](https://softuni.bg/certificates/details/94589/e1204906)
+[Link to site/pdf](https://softuni.bg/certificates/details/96767/c9191e77)
 
 ## Softuni CSS Advanced
 
