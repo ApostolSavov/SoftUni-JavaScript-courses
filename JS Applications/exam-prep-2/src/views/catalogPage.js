@@ -1,14 +1,14 @@
 import { catalogTemplate, loadingTemplate } from './templates.js';
-import { getAllItems } from '../api/data.js';
+import { getAllItems, getCollectionSize } from '../api/data.js';
 
 export async function catalogPage(ctx) {
 	ctx.render(loadingTemplate());
 
-	const data = await getAllItems();
+	const count = await getCollectionSize();
+	const pages = Math.ceil(count / 3);
+	const page = Number(ctx.querystring.split('=')[1]) || 1;
 
-	if (location.pathname != '/catalog') {
-		return;
-	}
+	const data = await getAllItems(page);
 
-	ctx.render(catalogTemplate(data));
+	ctx.render(catalogTemplate(data, pages, page));
 }

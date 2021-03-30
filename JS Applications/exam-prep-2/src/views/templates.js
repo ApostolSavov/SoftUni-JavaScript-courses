@@ -37,11 +37,17 @@ export const welcomeTemplate = () => {
 };
 
 //catalog Page
-export const catalogTemplate = (data) => {
+export const catalogTemplate = (data, pages, page) => {
 	return html`
 		<section id="car-listings">
 			<h1>Car Listings</h1>
+			<br />
 			<div class="listings">
+				<div>
+					${!(page <= 1) ? html`<a class="button-list" href="/catalog?page=${page - 1}">prev &lt;</a>` : ''}
+					<span>page ${page}/${pages}</span>
+					${!(page >= pages) ? html`<a class="button-list" href="/catalog?page=${page + 1}">&gt; next</a>` : ''}
+				</div>
 				${data.length > 0
 					? data.map((entry) => {
 							return html`
@@ -52,7 +58,7 @@ export const catalogTemplate = (data) => {
 									<h2>${entry.brand} ${entry.model}</h2>
 									<div class="info">
 										<div class="data-info">
-											<h3>Year: ${entry.model}</h3>
+											<h3>Year: ${entry.year}</h3>
 											<h3>Price: ${entry.price} $</h3>
 										</div>
 										<div class="data-buttons">
