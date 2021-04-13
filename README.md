@@ -5,6 +5,11 @@ A collection of my homework problem solutions in JavaScript, for the Fundamental
 
 Certificates of completed courses so far:
 
+## Softuni JS Applications
+
+![alt text](https://softuni.bg/certificates/certificates/converttoimage/102300?code=fde8a6ef) 
+
+[Link to site/pdf](https://softuni.bg/certificates/details/102300/fde8a6ef)
 
 ## Softuni JS Advanced
 
