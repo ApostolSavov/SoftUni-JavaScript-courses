@@ -5,6 +5,18 @@ A collection of my homework problem solutions in JavaScript, for the Fundamental
 
 Certificates of completed courses so far:
 
+## Softuni Angular
+
+![alt text](https://softuni.bg/certificates/certificates/converttoimage/110737?code=70ecbc1b) 
+
+[Link to site/pdf](https://softuni.bg/certificates/details/110737/70ecbc1b)
+
+## Softuni JS Backend
+
+![alt text](https://softuni.bg/certificates/certificates/converttoimage/108957?code=99cb2854) 
+
+[Link to site/pdf](https://softuni.bg/certificates/details/108957/99cb2854)
+
 ## Softuni JS Applications
 
 ![alt text](https://softuni.bg/certificates/certificates/converttoimage/102300?code=fde8a6ef) 
